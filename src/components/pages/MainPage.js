@@ -26,7 +26,6 @@ const MainPage = () => {
       </ErrorBoundary>
       <div className="char__content">
         <ErrorBoundary>
-          {" "}
           <CharList onCharSelected={onCharSelected} />
         </ErrorBoundary>
         <div>
